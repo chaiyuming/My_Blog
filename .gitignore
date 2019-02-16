@@ -1,0 +1,8 @@
+My_Blog/settings.py
+static/
+templates/
+utils/
+media/
+.idea
+*.pyc
+mysql.cnf
