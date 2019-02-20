@@ -5,3 +5,68 @@ WARNING 2019-02-16 21:03:13,715 basehttp 154 "GET / HTTP/1.1" 404 2453
 WARNING 2019-02-16 21:03:49,084 log 228 Not Found: /
 WARNING 2019-02-16 21:03:49,085 basehttp 154 "GET / HTTP/1.1" 404 2453
 INFO 2019-02-16 21:03:52,248 basehttp 154 "GET / HTTP/1.1" 200 16286
+INFO 2019-02-17 22:30:42,098 basehttp 154 "GET / HTTP/1.1" 200 15643
+WARNING 2019-02-17 22:30:42,246 log 228 Not Found: /MyBlog_Static/images/wechat.jpg
+WARNING 2019-02-17 22:30:42,247 basehttp 154 "GET /MyBlog_Static/images/wechat.jpg HTTP/1.1" 404 2514
+WARNING 2019-02-17 22:30:42,386 log 228 Not Found: /favicon.ico
+WARNING 2019-02-17 22:30:42,387 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2454
+INFO 2019-02-17 22:30:54,261 basehttp 154 "GET / HTTP/1.1" 200 15643
+INFO 2019-02-17 22:30:54,292 basehttp 154 "GET /static/css/news/index.css HTTP/1.1" 200 5500
+INFO 2019-02-17 22:30:54,306 basehttp 154 "GET /static/images/linux.jpg HTTP/1.1" 200 62189
+INFO 2019-02-17 22:30:54,307 basehttp 154 "GET /static/css/base/reset.css HTTP/1.1" 200 1427
+INFO 2019-02-17 22:30:54,309 basehttp 154 "GET /static/css/base/side.css HTTP/1.1" 200 4445
+INFO 2019-02-17 22:30:54,312 basehttp 154 "GET /static/css/base/common.css HTTP/1.1" 200 3498
+INFO 2019-02-17 22:30:54,314 basehttp 154 "GET /static/images/python_gui.jpg HTTP/1.1" 200 24129
+INFO 2019-02-17 22:30:54,342 basehttp 154 "GET /static/js/base/common.js HTTP/1.1" 200 223
+INFO 2019-02-17 22:30:54,363 basehttp 154 "GET /static/images/python_function.jpg HTTP/1.1" 200 27960
+INFO 2019-02-17 22:30:54,364 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1510
+INFO 2019-02-17 22:30:54,419 basehttp 154 "GET /static/images/jichujiaochen.jpeg HTTP/1.1" 200 11286
+INFO 2019-02-17 22:30:54,455 basehttp 154 "GET /static/images/python_web.jpg HTTP/1.1" 200 45717
+WARNING 2019-02-17 22:30:54,466 log 228 Not Found: /MyBlog_Static/images/wechat.jpg
+WARNING 2019-02-17 22:30:54,467 basehttp 154 "GET /MyBlog_Static/images/wechat.jpg HTTP/1.1" 404 2514
+INFO 2019-02-17 22:30:54,505 basehttp 154 "GET /static/images/python_advanced.jpg HTTP/1.1" 200 120059
+INFO 2019-02-17 22:30:55,955 basehttp 154 "GET /static/images/english.jpg HTTP/1.1" 200 137605
+WARNING 2019-02-17 22:30:56,763 log 228 Not Found: /favicon.ico
+WARNING 2019-02-17 22:30:56,764 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2454
+INFO 2019-02-17 22:34:50,598 basehttp 154 "GET / HTTP/1.1" 200 15643
+INFO 2019-02-17 22:34:51,080 basehttp 154 "GET /static/css/base/reset.css HTTP/1.1" 200 1427
+INFO 2019-02-17 22:34:51,081 basehttp 154 "GET /static/css/news/index.css HTTP/1.1" 200 5500
+INFO 2019-02-17 22:34:51,195 basehttp 154 "GET /static/css/base/common.css HTTP/1.1" 200 3498
+INFO 2019-02-17 22:34:51,198 basehttp 154 "GET /static/css/base/side.css HTTP/1.1" 200 4445
+INFO 2019-02-17 22:34:51,203 basehttp 154 "GET /static/images/python_gui.jpg HTTP/1.1" 200 24129
+INFO 2019-02-17 22:34:51,205 basehttp 154 "GET /static/images/linux.jpg HTTP/1.1" 200 62189
+INFO 2019-02-17 22:34:51,334 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1510
+INFO 2019-02-17 22:34:51,335 basehttp 154 "GET /static/js/base/common.js HTTP/1.1" 200 223
+INFO 2019-02-17 22:34:51,596 basehttp 154 "GET /static/images/python_function.jpg HTTP/1.1" 200 27960
+INFO 2019-02-17 22:34:51,634 basehttp 154 "GET /static/images/jichujiaochen.jpeg HTTP/1.1" 200 11286
+INFO 2019-02-17 22:34:51,739 basehttp 154 "GET /static/images/python_web.jpg HTTP/1.1" 200 45717
+WARNING 2019-02-17 22:34:51,744 log 228 Not Found: /MyBlog_Static/images/wechat.jpg
+WARNING 2019-02-17 22:34:51,745 basehttp 154 "GET /MyBlog_Static/images/wechat.jpg HTTP/1.1" 404 2514
+INFO 2019-02-17 22:34:52,022 basehttp 154 "GET /static/images/python_advanced.jpg HTTP/1.1" 200 120059
+INFO 2019-02-17 22:34:52,055 basehttp 154 "GET /static/images/english.jpg HTTP/1.1" 200 137605
+INFO 2019-02-18 14:21:18,640 basehttp 154 "GET / HTTP/1.1" 200 15643
+INFO 2019-02-18 14:21:19,511 basehttp 154 "GET /static/css/base/side.css HTTP/1.1" 304 0
+WARNING 2019-02-18 14:21:19,617 log 228 Not Found: /MyBlog_Static/images/wechat.jpg
+WARNING 2019-02-18 14:21:19,618 basehttp 154 "GET /MyBlog_Static/images/wechat.jpg HTTP/1.1" 404 2514
+WARNING 2019-02-18 14:21:20,551 log 228 Not Found: /favicon.ico
+WARNING 2019-02-18 14:21:20,552 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2454
+INFO 2019-02-18 14:21:22,029 basehttp 154 "GET /users/register/ HTTP/1.1" 200 4338
+INFO 2019-02-18 14:21:24,703 basehttp 154 "GET /users/login/ HTTP/1.1" 200 3702
+INFO 2019-02-18 14:21:26,263 basehttp 154 "GET /users/register/ HTTP/1.1" 200 4338
+ERROR 2019-02-18 14:34:37,995 exception 77 Invalid HTTP_HOST header: 'check.proxyradar.com'. You may need to add 'check.proxyradar.com' to ALLOWED_HOSTS.
+WARNING 2019-02-18 14:34:38,154 log 228 Bad Request: /http:/check.proxyradar.com/azenv.php
+WARNING 2019-02-18 14:34:38,155 basehttp 154 "POST http://check.proxyradar.com/azenv.php?auth=155047167751&a=PSCN&i=795046595&p=8080 HTTP/1.1" 400 64484
+ERROR 2019-02-18 14:49:04,845 exception 77 Invalid HTTP_HOST header: 'iZbp11u3tg0sg57m2u3gfcZ:8080'. You may need to add 'izbp11u3tg0sg57m2u3gfcz' to ALLOWED_HOSTS.
+WARNING 2019-02-18 14:49:04,948 log 228 Bad Request: /
+WARNING 2019-02-18 14:49:04,949 basehttp 154 "GET / HTTP/1.0" 400 61774
+ERROR 2019-02-18 14:49:07,706 exception 77 Invalid HTTP_HOST header: 'iZbp11u3tg0sg57m2u3gfcZ:8080'. You may need to add 'izbp11u3tg0sg57m2u3gfcz' to ALLOWED_HOSTS.
+WARNING 2019-02-18 14:49:07,822 log 228 Bad Request: /
+WARNING 2019-02-18 14:49:07,823 basehttp 154 "GET / HTTP/1.0" 400 61774
+INFO 2019-02-18 15:52:19,140 basehttp 154 "GET /users/login/ HTTP/1.1" 200 3693
+WARNING 2019-02-18 15:52:19,283 log 228 Not Found: /favicon.ico
+WARNING 2019-02-18 15:52:19,286 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2454
+INFO 2019-02-18 15:52:21,685 basehttp 154 "GET / HTTP/1.1" 200 15634
+WARNING 2019-02-18 15:52:21,812 log 228 Not Found: /MyBlog_Static/images/wechat.jpg
+WARNING 2019-02-18 15:52:21,813 basehttp 154 "GET /MyBlog_Static/images/wechat.jpg HTTP/1.1" 404 2514
+INFO 2019-02-18 16:04:10,295 basehttp 154 "GET / HTTP/1.1" 200 15634
+INFO 2019-02-18 16:10:27,392 basehttp 154 "GET /users/login/ HTTP/1.1" 200 3693
