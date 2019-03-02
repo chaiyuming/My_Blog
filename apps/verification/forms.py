@@ -12,6 +12,7 @@ logger = logging.getLogger('django')
 
 # 创建手机号的正则校验器
 mobile_validator = RegexValidator(r"^1[3-9]\d{9}$", "手机号码格式不正确")
+# 必须先填写正确的图片验证码，才能获取短信验证码。
 class SmsCaptchaForm(forms.Form):
     telephone=forms.CharField(max_length=11,min_length=11,validators=[mobile_validator,],error_messages={
         "min_length":"手机号码必须为11位",
@@ -59,16 +60,17 @@ class SmsCaptchaForm(forms.Form):
         img_flag_fmt='img_{}'.format(image_code_id).encode('utf8')
         # 取出图片验证码
         sever_img_code_orign=con_redis.get(img_flag_fmt)
+        con_redis.delete(img_flag_fmt)
         sever_img_code=sever_img_code_orign.decode('utf8') if sever_img_code_orign else None
         # 2、判断用户输入的图片验证码是否正确
-        if (not sever_img_code) or (text != sever_img_code.lower()):
+        if (not sever_img_code) or (text.upper() != sever_img_code):
             raise forms.ValidationError('图形验证码验证失败！')
         #3、判断在60s内是否有发送记录
         # 创建一把短信验证码发送记录钥匙,sms_flag_fmt是一个字节格式的数据
         sms_flag_fmt='sms_{}'.format(telephone).encode('utf8')
         sever_sms_code=con_redis.get(sms_flag_fmt)
         if sever_sms_code:
-            raise  forms.ValidationError('获取短信验证码过于频繁，请稍后再试！')
+            raise  forms.ValidationError('短信验证码仍在有效期内，请稍后再试！')
 
 
 

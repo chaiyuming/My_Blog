@@ -1,5 +1,5 @@
 from django.db import models
-from django.contrib.auth.models import AbstractBaseUser,AbstractUser,UserManager as _UserManager
+from django.contrib.auth.models import AbstractBaseUser,AbstractUser,UserManager as _UserManager,User
 
 # Create your models here.
 class UserManager(_UserManager):
