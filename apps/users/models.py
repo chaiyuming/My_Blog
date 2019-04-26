@@ -30,6 +30,9 @@ class User(AbstractUser):
         verbose_name='用户'
         # 复数
         verbose_name_plural=verbose_name
+    def get_groups_name(self):
+        groups_name_list=[i.name for i in self.groups.all()]
+        return '|'.join(groups_name_list)
     def __str__(self):
         return self.username
 

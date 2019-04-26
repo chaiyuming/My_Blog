@@ -15,12 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
+from django.conf.urls.static import static
+from django.conf import settings
 
 urlpatterns = [
-    path('Blog/', include('apps.Blog.urls')),
+    path('admin/', include('apps.admin.urls')),
     path('', include('apps.news.urls')),
     path('course/', include('apps.course.urls')),
-    path('doc/', include('apps.doc.urls')),
+    path('docs/', include('apps.doc.urls')),
     path('users/', include('apps.users.urls')),
     path('', include('apps.verification.urls')),
-]
+    path('ueditor/',include('apps.ueditor.urls')),
+]+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
+# settings.MRDIA_URL表示当django访问MEDIA_URL='/media/'文件时，那么就到settings.MEDIA_ROOT目录下去访问。
+# static是一个列表 ，
